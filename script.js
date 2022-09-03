@@ -25,7 +25,7 @@ function handleOnClick() {
       now.setMinutes(now.getMinutes() + 90);
       let elm = document.createElement("div");
       elm.innerText = 
-        now.toLocaleTimeString("en-US", { timeStyle: "short" }) + "<br />";
+        now.toLocaleTimeString("en-US", { timeStyle: "short" } + "<br />");
       elm.style.color = colors[i];
       hours.appendChild(elm);
     } 
